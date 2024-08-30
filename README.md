@@ -46,6 +46,8 @@ Displaying Custom Fields in single.php:
 Use the following code snippet in your single.php file to display custom fields:
 
 // Fetch custom fields data from post meta
+
+//start
 $post_id = get_the_ID();
 $fields = get_option('_cfp_fields', []);
 
@@ -117,6 +119,7 @@ if ($fields) {
     echo '</div>';
 }
 
+//end
 
 Advanced Usage
 Handling Repeater Fields
