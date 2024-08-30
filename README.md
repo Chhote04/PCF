@@ -1,4 +1,4 @@
-Pro Custom Fields Plugin 
+Pro Custom Fields Plugin Documentation
 Overview
 The Custom Fields Plugin for WordPress allows users to add and manage custom fields, including dynamic repeater fields, for various post types. This plugin enables users to create custom fields with different types such as text, number, image, and repeater. It integrates seamlessly into the WordPress admin interface and provides an easy way to manage custom fields for posts.
 
@@ -120,6 +120,5 @@ You can specify the post types when adding custom fields. This ensures that fiel
 Troubleshooting
 Custom Fields Not Displaying: Ensure that the single.php file is correctly modified to fetch and display custom fields. Verify that fields are saved in the post meta.
 Repeater Fields Not Working: Check if JavaScript is enabled in your browser and ensure no JavaScript errors occur on the admin page.
-Contact
-For support or questions regarding the plugin, please contact the plugin author at chhotelaljatav.clj@gmail.com.
+Contact chhotelaljatav.clj@gmail.com.
 
